@@ -4501,7 +4501,6 @@ sub,sup {
 @media only screen and (min-width: 768px) {
     .header .site-description {
         font-size:34px;
-        line-height: 0.5em;
     }
 }
 
