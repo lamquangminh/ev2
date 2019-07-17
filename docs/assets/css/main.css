@@ -4470,7 +4470,7 @@ sub,sup {
     /* position:absolute; */
     /* top:50%; */
     /* left:50%; */
-    margin: 100px 50px;
+    margin: 50px 100px 70px;
     /* -webkit-transform:translate(-50%,-50%); */
     /* transform:translate(-50%,-50%); */
 }
@@ -4485,7 +4485,8 @@ sub,sup {
 @media only screen and (min-width: 768px) {
     .header .site-title {
         margin:0;
-        font-size: 76px
+        font-size: 76px;
+        margin-bottom: 50px;
     }
 }
 
@@ -4499,7 +4500,8 @@ sub,sup {
 
 @media only screen and (min-width: 768px) {
     .header .site-description {
-        font-size:34px
+        font-size:34px;
+        line-height: 1.4em;
     }
 }
 
