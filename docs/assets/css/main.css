@@ -4470,7 +4470,7 @@ sub,sup {
     z-index: 1;
     text-align: center;
     color: #fff;
-    margin: 100px 50px
+    margin: 50px 50px 50px 300px
 }
 
 .header .site-title {
