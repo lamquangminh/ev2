@@ -18,8 +18,9 @@ progress,sub,sup {
 
 html {
     line-height: 1.15;
+    height: 100%;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -4361,10 +4362,11 @@ summary {
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-size: 100%;
     line-height: 1.5;
     color: #555;
-    font-family: antic slab,serif
+    font-family: antic slab,serif;
 }
 
 article,aside,figcaption,figure,footer,header,nav,section {
@@ -4448,7 +4450,8 @@ sub,sup {
     background: #1a222c;
     display: flex;
     vertical-align: bottom;
-    min-height: 100vh;
+    min-height: 100%;
+    position: relative;
     justify-content: center;
     overflow: auto;
     min-width: 400px;
@@ -4467,12 +4470,7 @@ sub,sup {
     z-index: 1;
     text-align: center;
     color: #fff;
-    /* position:absolute; */
-    /* top:50%; */
-    /* left:50%; */
-    margin: 10px 50px 100px;
-    /* -webkit-transform:translate(-50%,-50%); */
-    /* transform:translate(-50%,-50%); */
+    margin: 100px 50px
 }
 
 .header .site-title {
@@ -4485,8 +4483,7 @@ sub,sup {
 @media only screen and (min-width: 768px) {
     .header .site-title {
         margin:0;
-        font-size: 76px;
-        margin-bottom: 50px;
+        font-size: 76px
     }
 }
 
@@ -4500,7 +4497,7 @@ sub,sup {
 
 @media only screen and (min-width: 768px) {
     .header .site-description {
-        font-size:34px;
+        font-size:34px
     }
 }
 
