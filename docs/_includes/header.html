@@ -16,7 +16,7 @@
       <h3 class="modal_header_text">Bạn hãy quét mã QR bên dưới bằng app Momo</h3>
     </div>
     <div class="modal-body">
-      <img src="/assets/lqm-momo.png">
+      <img src="../assets/lqm-momo.png">
     </div>
   </div>
 </div>
@@ -28,7 +28,7 @@
       <h3 class="modal_header_text">Bạn hãy quét mã QR bên dưới bằng app ViettelPay</h3>
     </div>
     <div class="modal-body">
-      <img src="/assets/lqm-vtpay.png">
+      <img src="../assets/lqm-vtpay.png">
     </div>
   </div>
 </div>
@@ -40,10 +40,12 @@
       <h3 class="modal_header_text">Bạn hãy quét mã QR bên dưới bằng app ZaloPay</h3>
     </div>
     <div class="modal-body">
-      <img src="/assets/lqm-zalopay.png">
+      <img src="../assets/lqm-vtpay.png">
     </div>
   </div>
 </div>
+
+<!-- ******************************** -->
 
 <div id="particles-js">
   <div class="header">
@@ -73,6 +75,8 @@
   </div>
 
 </div>
+
+<!-- ******************************** -->
 
 <script>
   function ShowDonate() {
@@ -108,10 +112,10 @@
   var btn2 = document.getElementById("donate_zalopay");
   var span2 = document.getElementsByClassName("close")[1];
   btn1.onclick = function() {
-    modal1.classList.add("active");
+    modal2.classList.add("active");
   }
   span1.onclick = function() {
-    modal1.classList.remove("active");
+    modal2.classList.remove("active");
   }
 
   window.onclick = function(event) {
@@ -120,6 +124,9 @@
     }
     if (event.target == modal1) {
       modal1.classList.remove("active");
+    }
+    if (event.target == modal2) {
+      modal2.classList.remove("active");
     }
   }
 </script>
